@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/alilo_alilo_demin_654"
+        android:layout_height="@dimen/alilo_alilo_demin_35"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/alilo_alilo_demin_14"
+        >
+        <TextView
+            android:layout_width="@dimen/alilo_alilo_demin_150"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:text="@string/alilo_setting_eye_set_time"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="@drawable/alilo_eye_distance_green_bg"
+            android:textSize="22.0sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:layout_marginRight="@dimen/alilo_alilo_demin_60"
+            android:background="@drawable/alilo_eye_distance_grey_normal"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/alilo_alilo_demin_654"
+        android:layout_height="@dimen/alilo_alilo_demin_35"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/alilo_alilo_demin_14"
+        >
+        <TextView
+            android:layout_width="@dimen/alilo_alilo_demin_150"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:text="@string/alilo_setting_eye_use_time"
+            android:textColor="@color/text_color_smart"
+            android:gravity="center"
+            android:background="@drawable/alilo_eye_distance_green_bg"
+            android:textSize="22.0sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:layout_marginRight="@dimen/alilo_alilo_demin_60"
+            android:background="@drawable/alilo_eye_distance_grey_normal"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/alilo_alilo_demin_654"
+        android:layout_height="@dimen/alilo_alilo_demin_35"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/alilo_alilo_demin_14"
+        >
+        <TextView
+            android:layout_width="@dimen/alilo_alilo_demin_150"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:text="@string/alilo_setting_eye_use_one_time"
+            android:textColor="@color/text_color_smart"
+            android:gravity="center"
+            android:background="@drawable/alilo_eye_distance_green_bg"
+            android:textSize="22.0sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:layout_marginRight="@dimen/alilo_alilo_demin_60"
+            android:background="@drawable/alilo_eye_distance_grey_normal"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/alilo_alilo_demin_654"
+        android:layout_height="@dimen/alilo_alilo_demin_35"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/alilo_alilo_demin_14"
+        >
+        <TextView
+            android:layout_width="@dimen/alilo_alilo_demin_150"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:text="@string/alilo_setting_eye_sleep_one_time"
+            android:textColor="@color/text_color_smart"
+            android:gravity="center"
+            android:background="@drawable/alilo_eye_distance_green_bg"
+            android:textSize="22.0sp" />
+
+        <Spinner
+            android:id="@+id/alilo_sleep_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_30"
+            android:layout_marginRight="@dimen/alilo_alilo_demin_60"
+            android:background="@drawable/alilo_eye_distance_grey_normal"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/alilo_play_distance_img_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50.0dp"
+        android:background="@drawable/alilo_eye_distance_img">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/alilo_alilo_eye_distance_play" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/alilo_alilo_demin_654"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/alilo_alilo_demin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alilo_alilo_demin_10"
+            android:layout_marginRight="@dimen/alilo_alilo_demin_10"
+            android:text="@string/alilo_eye_distance_rest"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_smart"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alilo_alilo_demin_654">654dp</dimen>
+    <dimen name="alilo_alilo_demin_35">35dp</dimen>
+    <dimen name="alilo_alilo_demin_14">14dp</dimen>
+    <dimen name="alilo_alilo_demin_150">150dp</dimen>
+    <dimen name="alilo_alilo_demin_30">30dp</dimen>
+    <dimen name="alilo_alilo_demin_60">60dp</dimen>
+    <dimen name="alilo_alilo_demin_10">10dp</dimen>
+</resources>

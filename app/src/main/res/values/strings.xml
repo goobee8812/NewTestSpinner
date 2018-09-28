@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewTestSpinner</string>
+    <string name="alilo_setting_eye_set_time">时间约定</string>
+    <string name="alilo_setting_eye_use_time">可使用时间段</string>
+    <string name="alilo_setting_eye_use_one_time">每次使用时长</string>
+    <string name="alilo_setting_eye_sleep_one_time">每次休息时长</string>
+    <string name="alilo_eye_distance_rest">休息</string>
+</resources>
